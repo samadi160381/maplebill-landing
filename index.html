@@ -4,6 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MapleBill — Invoice Management for Canadian Freelancers</title>
+<meta name="description" content="Invoice software built for Canadian freelancers. Auto GST/HST/QST by province, English & French invoices, payment links, and a revenue dashboard. Free to start.">
+<meta name="keywords" content="invoice software Canada, Canadian freelancer invoicing, GST HST invoice app, bilingual invoices, Quebec freelancer, invoice management">
+<meta property="og:title" content="MapleBill — Invoice Management for Canadian Freelancers">
+<meta property="og:description" content="Auto provincial tax, bilingual invoices, payment links. Built for Canadian freelancers and studios.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://maplebill.com">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="MapleBill — Invoicing built for Canada">
+<meta name="twitter:description" content="GST, HST, QST handled automatically. Send invoices in English or French. Free to start.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://maplebill.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 <style>
@@ -472,8 +483,8 @@
     <a href="#">Docs</a>
   </div>
   <div class="nav-cta">
-    <button class="btn-nav btn-outline">Sign in</button>
-    <button class="btn-nav btn-solid">Get started free</button>
+    <a href="/app" class="btn-nav btn-outline">Sign in</a>
+    <a href="/app" class="btn-nav btn-solid">Get started free</a>
   </div>
 </nav>
 
@@ -491,11 +502,11 @@
       GST, HST, QST — handled automatically by province. Send polished invoices in English or French, track payments, and get paid faster.
     </p>
     <div class="hero-actions">
-      <button class="btn-primary">
+      <a href="/app" class="btn-primary">
         <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
         Start free — no card needed
-      </button>
-      <button class="btn-ghost-hero">Watch 2-min demo →</button>
+      </a>
+      <a href="#features" class="btn-ghost-hero">See how it works →</a>
     </div>
     <div class="hero-trust">
       <div class="trust-avatars">
@@ -767,7 +778,7 @@
         <li class="plan-feature">PDF export</li>
         <li class="plan-feature">EN &amp; FR invoices</li>
       </ul>
-      <button class="btn-plan">Get started free</button>
+      <button class="btn-plan" onclick="location.href='/app'">Get started free</button>
     </div>
     <div class="pricing-card featured">
       <div class="plan-badge">Most popular</div>
@@ -783,7 +794,7 @@
         <li class="plan-feature">Auto payment reminders</li>
         <li class="plan-feature">Priority support</li>
       </ul>
-      <button class="btn-plan">Start 14-day free trial</button>
+      <button class="btn-plan" onclick="location.href='/app'">Start 14-day free trial</button>
     </div>
     <div class="pricing-card">
       <div class="plan-name">Studio</div>
@@ -798,7 +809,7 @@
         <li class="plan-feature">API access</li>
         <li class="plan-feature">Dedicated account manager</li>
       </ul>
-      <button class="btn-plan">Start 14-day free trial</button>
+      <button class="btn-plan" onclick="location.href='/app'">Start 14-day free trial</button>
     </div>
   </div>
 </section>
@@ -809,7 +820,7 @@
     <h2 class="cta-title">Ready to get paid faster?</h2>
     <p class="cta-sub">Join 3,200+ Canadian freelancers who stopped chasing invoices.</p>
   </div>
-  <button class="btn-cta">Create your first invoice →</button>
+  <button class="btn-cta" onclick="location.href='/app'">Create your first invoice →</button>
 </div>
 
 <!-- FOOTER -->
